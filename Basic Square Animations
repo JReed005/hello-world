@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+  -webkit-animation-name: circle; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: circle;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes circle {
+  from {background-color: cadetblue;}
+  to {background-color: coral;}
+}
+
+</style>
+<h1>Jared Blank's Animation Website</h1>
+<h3>First Variation:</h3>
+<p>Runs once.</p>
+</head>
+<body>
+<div></div>
+<body>
+    <hr>
+<head>
+<style>
+    
+.element {
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+  -webkit-animation-name: circle; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  animation-name: circle;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes circle {
+  from {background-color: cadetblue;}
+  to {background-color: coral;}
+}
+
+</style>
+<h3>Second Animation:</h3>
+<p>Runs delayed.</p>
+</head>
+<body>
+<div class="element"></div>
+</body>
+<hr>
+<head>
+<style>
+    
+.shape {
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+  -webkit-animation-name: square; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  animation-name: square;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+}
+
+@-webkit-keyframes square {
+  0% {background-color: cadetblue;}
+  50% {background-color: coral;}
+  100% {background-color: cadetblue;}
+}
+
+</style>
+<h3>Third Animation:</h3>
+<p>Repeates Three Times.</p>
+</head>
+<body>
+<div class="shape"></div>
+</body>
